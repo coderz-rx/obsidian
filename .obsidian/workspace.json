@@ -1,0 +1,188 @@
+{
+  "main": {
+    "id": "9556c1f2c0cc79cf",
+    "type": "split",
+    "children": [
+      {
+        "id": "dd82a5be5a16df76",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "31e2f7887bdd600e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "知识库/技术/git/git配置相关.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "git配置相关"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f4733a60e97911c9",
+    "type": "split",
+    "children": [
+      {
+        "id": "e9fabed13520a162",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6820001f557cad85",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "15ef40a4dec549dc",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "2d5fde995e0d8224",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "0470e57e50b0d210",
+    "type": "split",
+    "children": [
+      {
+        "id": "6423fbcabe66d556",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "72f7d205fcdf82e7",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "欢迎.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "欢迎 的反向链接列表"
+            }
+          },
+          {
+            "id": "7afa971077a98408",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "欢迎.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "欢迎 的出链列表"
+            }
+          },
+          {
+            "id": "27659240020c5f28",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "c3a481625ba5fae4",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "欢迎.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "欢迎 的大纲"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "31e2f7887bdd600e",
+  "lastOpenFiles": [
+    "知识库/其他/obsidian/同步到git的方法.md",
+    "知识库/技术/git/git配置相关.md",
+    "知识库/其他/obsidian",
+    "知识库/其他",
+    "知识库/读书笔记/工具书/神奇的结构.md",
+    "知识库/技术/git",
+    "欢迎.md",
+    "知识库/读书笔记/政治历史",
+    "知识库/读书笔记/小说",
+    "知识库/读书笔记/工具书",
+    "知识库/人生",
+    "知识库/投资",
+    "知识库/技术",
+    "知识库/读书笔记"
+  ]
+}
