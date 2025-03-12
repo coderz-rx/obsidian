@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "欢迎.md",
+                "file": "知识库/读书笔记/政治历史/明朝那些事.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "欢迎 的反向链接列表"
+              "title": "明朝那些事 的反向链接列表"
             }
           },
           {
@@ -150,13 +150,23 @@
               "icon": "lucide-list",
               "title": "欢迎 的大纲"
             }
+          },
+          {
+            "id": "4e3d4cd9a55c9942",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
