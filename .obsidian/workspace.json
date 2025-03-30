@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "27b8b4bad41952cc",
+        "id": "4512809b3666fbed",
         "type": "tabs",
         "children": [
           {
-            "id": "8ac14c0be9f9c08e",
+            "id": "1a5c1e04a00aec0f",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "知识库/技术/git/git配置相关.md",
-                "bFile": "知识库/技术/git/git配置相关.md",
-                "aRef": ""
+                "file": "知识库/技术/git/git配置相关.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: git配置相关"
+              "icon": "lucide-file",
+              "title": "git配置相关"
             }
           }
         ]
@@ -179,19 +179,19 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8ac14c0be9f9c08e",
+  "active": "1a5c1e04a00aec0f",
   "lastOpenFiles": [
+    "知识库/其他/obsidian/同步到git的方法.md",
     "知识库/读书笔记/工具书/神奇的结构.md",
-    "conflict-files-obsidian-git.md",
-    "知识库/技术/git/git配置相关.md",
-    "创建链接.md",
-    "知识库/读书笔记/小说/长安的荔枝.md",
-    "知识库/读书笔记/小说/沧浪之水.md",
     "知识库/读书笔记/政治历史/明朝那些事.md",
+    "知识库/读书笔记/小说/长安的荔枝.md",
+    "知识库/技术/git/git配置相关.md",
+    "conflict-files-obsidian-git.md",
+    "创建链接.md",
+    "知识库/读书笔记/小说/沧浪之水.md",
     "欢迎.md",
     "知识库/投资/技术指标.md",
     "知识库/人生/天道.md",
-    "知识库/其他/obsidian/同步到git的方法.md",
     "知识库/其他/obsidian",
     "知识库/其他",
     "知识库/技术/git",
