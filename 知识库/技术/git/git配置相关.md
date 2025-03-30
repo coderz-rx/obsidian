@@ -8,4 +8,5 @@
 - 提交日志：git commit -m “first commit” 
 - 连接远程仓库：git remote add origin git@github.com:coderz-rx/obsidian.git
 - 推送到远程仓库分支master：git push -u origin master 
+3、
 

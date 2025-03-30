@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识库/读书笔记/小说/长安的荔枝.md",
+                "file": "知识库/技术/git/git配置相关.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "长安的荔枝"
+              "title": "git配置相关"
             }
           }
         ]
@@ -179,11 +179,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4e3d4cd9a55c9942",
+  "active": "6820001f557cad85",
   "lastOpenFiles": [
+    "知识库/读书笔记/小说/长安的荔枝.md",
     "创建链接.md",
     "知识库/读书笔记/政治历史/明朝那些事.md",
-    "知识库/读书笔记/小说/长安的荔枝.md",
     "知识库/投资/技术指标.md",
     "知识库/技术/git/git配置相关.md",
     "欢迎.md",
