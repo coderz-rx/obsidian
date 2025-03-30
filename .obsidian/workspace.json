@@ -4,22 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "dd82a5be5a16df76",
+        "id": "81c431a374048a3a",
         "type": "tabs",
         "children": [
           {
-            "id": "31e2f7887bdd600e",
+            "id": "b365124817217b5c",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": ".obsidian/workspace.json",
-                "bFile": ".obsidian/workspace.json",
-                "aRef": "HEAD",
-                "bRef": ""
+                "file": "知识库/技术/git/git配置相关.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: workspace.json"
+              "icon": "lucide-file",
+              "title": "git配置相关"
             }
           }
         ]
@@ -180,7 +179,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "31e2f7887bdd600e",
+  "active": "b365124817217b5c",
   "lastOpenFiles": [
     "知识库/读书笔记/小说/长安的荔枝.md",
     "知识库/读书笔记/小说/沧浪之水.md",
