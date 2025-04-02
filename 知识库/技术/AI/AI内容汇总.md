@@ -1,9 +1,11 @@
 1、AI工具（IDE）
 - cursor
+- obsidian
 2、AI资源（算力）
 - GPU性能
 - 租用平台
 - 快速推理技术
+- AutoML
 3、AI练习
 - Exercism
 - Kaggle
@@ -28,3 +30,6 @@
 - 主流开闭源模型
 - Openrouter
 - 硅基流动
+10、数据
+- 爬虫：https://github.com/NanmiCoder/MediaCrawler
+- 根据数据生成训练集、测试集
