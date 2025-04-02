@@ -8,5 +8,15 @@
 - 提交日志：git commit -m “first commit” 
 - 连接远程仓库：git remote add origin git@github.com:coderz-rx/obsidian.git
 - 推送到远程仓库分支master：git push -u origin master 
-3、测试推送
 
+比较彻底的配置方法，直接为不同的host配置不同的公钥即可，例如：为gitlab（私库）和github配置不同的公钥，这样在访问不同host时就会读取不同公钥文件
+
+Host gitlab.corp.qunar.com
+    HostKeyAlgorithms +ssh-rsa
+    PubkeyAcceptedAlgorithms +ssh-rsa
+
+Host github.com
+    HostName ssh.github.com
+    User git
+    port 443
+    IdentityFile ~/.ssh/id_rsa_new

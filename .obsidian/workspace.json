@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识库/技术/项目发布/文件配置.md",
+                "file": "知识库/人生/天道.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "文件配置"
+              "title": "天道"
             }
           }
         ]
@@ -181,12 +181,15 @@
   },
   "active": "eb259c71998406fa",
   "lastOpenFiles": [
+    "知识库/其他/obsidian/同步到git的方法.md",
+    "知识库/技术/项目发布/文件配置.md",
+    "知识库/技术/mybatis/mybatis绑定数据库.md",
+    "知识库/技术/git/git配置相关.md",
+    "Pasted image 20250402182621.png",
     "知识库/读书笔记/小说/沧浪之水.md",
     "知识库/读书笔记/小说/长安的荔枝.md",
     "知识库/读书笔记/政治历史/明朝那些事.md",
     "知识库/读书笔记/工具书/神奇的结构.md",
-    "知识库/技术/git/git配置相关.md",
-    "知识库/其他/obsidian/同步到git的方法.md",
     "conflict-files-obsidian-git.md",
     "创建链接.md",
     "欢迎.md",
