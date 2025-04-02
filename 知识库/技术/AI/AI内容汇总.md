@@ -65,3 +65,6 @@
 	3.DIKW，从信息到认知、资讯推荐，从收藏变为inbox、番茄工作法
 		1. reddit、HackerNews、youtube、X
 	4.个人的几个prompt分享、Al复盘
+
+14、AI杂想
+[[AI IDEA]]
