@@ -13,26 +13,22 @@
 - Wandb平台的使用
 4、AI微调
 - 强化学习微调Qwen2.5-1.5B
-5、AI资讯
-- HackerNews
-- X
-- YouTube列表
+5.AI资讯
+	- HackerNews
+	- X
+	- YouTube列表
 6、AI学习
-- 知识图谱与知识库使用心得
-7、AI商业化
-- Chatwise盈利模式的探讨
-- 自写插件
-- 细分场景发现
+	- 知识图谱与知识库使用心得
 8、AI课程
-- CS229
-- CS224n
+	- CS229
+	- CS224n
 9、AI模型
-- 主流开闭源模型
-- Openrouter
-- 硅基流动
+	- 主流开闭源模型
+	- Openrouter
+	- 硅基流动
 10.数据
-	-[爬虫：git工程](https://github.com/NanmiCoder/MediaCrawler)
-	-根据数据生成训练集、测试集
+	1.[爬虫：git工程](https://github.com/NanmiCoder/MediaCrawler)
+	2.根据数据生成训练集、测试集
 
 11.开源模型(Python>PyTorch>深度学习>微调)
 	1.Exercism+Colab+Kaggle构建底层能力
@@ -62,10 +58,17 @@
 	4. LangManus (多Agent框架)
 
 14.业界方向
-1. Al infra
-2. MLops
+	1. Al infra
+	2. MLops
 
 15.Al认知和商业化
-1. curson
-2. Chatwise
-3. 自己写的一款插件和网站
+	1. curson
+	2. Chatwise
+	3. 自己写的一款插件和网站
+
+16.快速学习&知识库和RAG的思考
+	1.快速学习:从Roadmap到Cheatsheet到知识图谱
+	2.信息爆炸下的个人知识库，硬盘小，IO能力强，复写率
+	3.DIKW，从信息到认知、资讯推荐，从收藏变为inbox、番茄工作法
+		1. reddit、HackerNews、youtube、X
+	4.个人的几个prompt分享、Al复盘
