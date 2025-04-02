@@ -31,5 +31,5 @@
 - Openrouter
 - 硅基流动
 10、数据
-- 爬虫：https://github.com/NanmiCoder/MediaCrawler
+- [爬虫:git工程](https://github.com/NanmiCoder/MediaCrawler)
 - 根据数据生成训练集、测试集
