@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识库/技术/AI/AI内容汇总.md",
+                "file": "知识库/技术/AI/AI IDEA.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AI内容汇总"
+              "title": "AI IDEA"
             }
           }
         ],
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "知识库/技术/AI/AI内容汇总.md",
+                "file": "知识库/技术/AI/AI IDEA.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "AI内容汇总 的反向链接列表"
+              "title": "AI IDEA 的反向链接列表"
             }
           },
           {
@@ -128,12 +128,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "知识库/技术/AI/AI内容汇总.md",
+                "file": "知识库/技术/AI/AI IDEA.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "AI内容汇总 的出链列表"
+              "title": "AI IDEA 的出链列表"
             }
           },
           {
@@ -157,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识库/技术/AI/AI内容汇总.md",
+                "file": "知识库/技术/AI/AI IDEA.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "AI内容汇总 的大纲"
+              "title": "AI IDEA 的大纲"
             }
           },
           {
@@ -196,12 +196,12 @@
   },
   "active": "4385140c73343173",
   "lastOpenFiles": [
+    "知识库/技术/AI/AI内容汇总.md",
     "知识库/人生/天道.md",
     "知识库/其他/工具使用.md",
     "知识库/其他/markdown使用.md",
     "未命名.canvas",
     "知识库/技术/AI/AI IDEA.md",
-    "知识库/技术/AI/AI内容汇总.md",
     "知识库/读书笔记/政治历史/明朝那些事.md",
     "创建链接.md",
     "Pasted image 20250402182621.png",
