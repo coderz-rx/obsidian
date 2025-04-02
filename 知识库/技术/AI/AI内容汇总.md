@@ -31,5 +31,22 @@
 - Openrouter
 - 硅基流动
 10、数据
-- [爬虫:git工程](https://github.com/NanmiCoder/MediaCrawler)
+- [爬虫：git工程](https://github.com/NanmiCoder/MediaCrawler)
 - 根据数据生成训练集、测试集
+
+11.开源模型(Python>PyTorch>深度学习>微调)
+	1.Exercism+Colab+Kaggle构建底层能力
+		1.Exercism的使用
+		2.Colab的使用,结合下面手写多层感知机
+		3.Kaggle的使用,面向项目学习
+	2.什么是深度学习?
+		1.历史简述
+		2.手写多层感知机
+			1.几个关键概念:梯度、损失函数、收敛、过拟合
+			2.线性+非线性=世界规律
+		3.transformer简介(基于PyTorch实现)
+		4.名校lab:CS229 Machine Learning、CS224n Natural Language Processing
+	3.大模型微调:监督微调(SFT)、强化学习微调(如GRPO)
+		1.微调实战--用Open-R1微调Qwen模型,强化AI数学推理助
+		2.Wandb平台的使用
+		3.Huggingface使用
