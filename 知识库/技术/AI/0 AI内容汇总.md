@@ -70,4 +70,4 @@
     [[AI IDEA]]
 
 15、AI相关概念
-     RAG:
+     RAG:[[AI RAG]]]
