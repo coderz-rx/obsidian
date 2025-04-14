@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识库/投资/交易复盘.md",
+                "file": "知识库/技术/AI/transformer.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "交易复盘"
+              "title": "transformer"
             }
           }
         ]
@@ -181,6 +181,8 @@
   },
   "active": "eb259c71998406fa",
   "lastOpenFiles": [
+    "知识库/投资/交易复盘.md",
+    "知识库/技术/AI/transformer.md",
     "知识库/方法论/方法论合集.md",
     "知识库/方法论/知识收集到吸收.md",
     "知识库/方法论",
@@ -203,13 +205,11 @@
     "知识库/技术/AI/AI MCP.md",
     "知识库/技术/AI/AI IDEA.md",
     "知识库/技术/AI/AI 一些思考.md",
-    "知识库/投资/交易复盘.md",
     "知识库/随记",
     "知识库/投资/技术指标.md",
     "知识库/技术/0 技术汇总.md",
     "知识库/其他/obsidian/同步到git的方法.md",
     "未命名.canvas",
-    "创建链接.md",
     "Pasted image 20250402182621.png",
     "知识库/技术/AI",
     "知识库/其他/obsidian",
