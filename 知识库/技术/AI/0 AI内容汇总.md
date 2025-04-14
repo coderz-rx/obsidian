@@ -46,7 +46,7 @@
 
 10.Al应用
 	1. Agent
-	2. MLP(以高德为例)
+	2. MCP(以高德为例)  [[AI MCP]]
 	3. Browse-use
 	4. LangManus (多Agent框架)
 
@@ -67,4 +67,7 @@
 	4.个人的几个prompt分享、Al复盘
 
 14、AI杂想
-[[AI IDEA]]
+    [[AI IDEA]]
+
+15、AI相关概念
+     RAG:
