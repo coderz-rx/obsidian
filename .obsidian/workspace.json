@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识库/技术/AI/transformer.md",
+                "file": "知识库/技术/AI/AI RAG.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "transformer"
+              "title": "AI RAG"
             }
           }
         ]
@@ -179,10 +179,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "eb259c71998406fa",
+  "active": "6820001f557cad85",
   "lastOpenFiles": [
-    "知识库/投资/交易复盘.md",
+    "知识库/技术/AI/AI MCP.md",
+    "知识库/技术/AI/AI IDEA.md",
     "知识库/技术/AI/transformer.md",
+    "知识库/投资/交易复盘.md",
     "知识库/方法论/方法论合集.md",
     "知识库/方法论/知识收集到吸收.md",
     "知识库/方法论",
@@ -202,8 +204,6 @@
     "知识库/技术/git/git配置相关.md",
     "知识库/技术/AI/AI影响 by 企业家、投资人 Greg Isenberg.md",
     "知识库/技术/AI/AI RAG.md",
-    "知识库/技术/AI/AI MCP.md",
-    "知识库/技术/AI/AI IDEA.md",
     "知识库/技术/AI/AI 一些思考.md",
     "知识库/随记",
     "知识库/投资/技术指标.md",
