@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "5cdaa3322c51d9fe",
+        "id": "005e0f996f1434b9",
         "type": "tabs",
         "children": [
           {
-            "id": "eb259c71998406fa",
+            "id": "65d77818bf935433",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -179,10 +179,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "eb259c71998406fa",
+  "active": "6820001f557cad85",
   "lastOpenFiles": [
     "知识库/技术/AI/AI IDEA.md",
     "知识库/技术/AI/一些思考/和春春的一次谈话.md",
+    "知识库/技术/AI/prompt集合",
     "知识库/技术/AI/一些思考",
     "知识库/技术/AI/0 AI内容汇总.md",
     "知识库/技术/AI/AI RAG.md",
@@ -209,7 +210,6 @@
     "知识库/技术/AI/AI 一些思考.md",
     "知识库/随记",
     "知识库/投资/技术指标.md",
-    "知识库/技术/0 技术汇总.md",
     "未命名.canvas",
     "Pasted image 20250402182621.png",
     "知识库/技术/AI",
@@ -217,7 +217,6 @@
     "知识库/其他",
     "知识库/技术/git",
     "知识库/读书笔记/政治历史",
-    "知识库/读书笔记/小说",
-    "知识库/读书笔记/工具书"
+    "知识库/读书笔记/小说"
   ]
 }
