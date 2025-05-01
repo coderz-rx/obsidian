@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "00f14ce32faeed51",
+        "id": "b02c41b314369329",
         "type": "tabs",
         "children": [
           {
-            "id": "1d90ca0406256627",
+            "id": "f359690fdd046b09",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -175,8 +175,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2abb1ad21973ab5f",
+  "active": "f359690fdd046b09",
   "lastOpenFiles": [
+    "知识库/读书笔记/哲学/未命名.md",
+    "知识库/技术/AI/AI影响 by 企业家、投资人 Greg Isenberg.md",
+    "知识库/随记/抖音语录.md",
+    "知识库/随记/个人随想.md",
     "知识库/技术/AI/一些模型框架.md",
     "知识库/技术/AI/无监督？强化学习.md",
     "知识库/技术/AI/prompt集合/一些prompt的trick.md",
@@ -185,7 +189,6 @@
     "知识库/技术/AI/AI IDEA.md",
     "知识库/技术/AI/AI RAG.md",
     "知识库/技术/AI/transformer.md",
-    "知识库/技术/AI/AI影响 by 企业家、投资人 Greg Isenberg.md",
     "知识库/技术/AI/一些思考/和春春的一次谈话.md",
     "知识库/技术/AI/prompt集合",
     "知识库/技术/AI/一些思考",
@@ -198,14 +201,11 @@
     "知识库/其他/markdown使用.md",
     "知识库/人生/天道.md",
     "知识库/随记/随记集合.md",
-    "知识库/随记/抖音语录.md",
-    "知识库/随记/个人随想.md",
     "知识库/读书笔记/政治历史/明朝那些事.md",
     "知识库/读书笔记/小说/长安的荔枝.md",
     "知识库/读书笔记/小说/沧浪之水.md",
     "知识库/读书笔记/工具书/神奇的结构.md",
     "知识库/技术/项目发布/文件配置.md",
-    "知识库/技术/mybatis/mybatis绑定数据库.md",
     "知识库/随记",
     "未命名.canvas",
     "Pasted image 20250402182621.png",
