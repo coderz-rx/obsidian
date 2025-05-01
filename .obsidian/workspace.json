@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "005e0f996f1434b9",
+        "id": "00f14ce32faeed51",
         "type": "tabs",
         "children": [
           {
-            "id": "65d77818bf935433",
+            "id": "1d90ca0406256627",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": ".obsidian/community-plugins.json",
-                "bFile": ".obsidian/community-plugins.json",
-                "aRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: community-plugins.json"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
             }
           }
         ]
@@ -179,7 +175,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "65d77818bf935433",
+  "active": "2abb1ad21973ab5f",
   "lastOpenFiles": [
     "知识库/技术/AI/一些模型框架.md",
     "知识库/技术/AI/无监督？强化学习.md",
