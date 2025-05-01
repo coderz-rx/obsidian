@@ -20,21 +20,8 @@
               "icon": "lucide-file",
               "title": "一些模型框架"
             }
-          },
-          {
-            "id": "2f2d31f223d98737",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.8.10"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.8.10"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -192,7 +179,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2f2d31f223d98737",
+  "active": "65d77818bf935433",
   "lastOpenFiles": [
     "知识库/技术/AI/无监督？强化学习.md",
     "知识库/技术/AI/prompt集合/一些prompt的trick.md",
