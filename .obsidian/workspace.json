@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识库/技术/java/集合操作.md",
+                "file": "知识库/技术/java/Tomcat.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "集合操作"
+              "title": "Tomcat"
             }
           }
         ]
@@ -179,9 +179,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6820001f557cad85",
+  "active": "4f85a80f628a358d",
   "lastOpenFiles": [
     "知识库/技术/java/集合操作.md",
+    "知识库/技术/java/Tomcat.md",
     "知识库/投资/交易复盘.md",
     "知识库/技术/java",
     "知识库/读书笔记/哲学/中国哲学史-上册.md",
@@ -210,7 +211,6 @@
     "知识库/随记/个人随想.md",
     "知识库/读书笔记/政治历史/明朝那些事.md",
     "知识库/读书笔记/小说/长安的荔枝.md",
-    "知识库/读书笔记/小说/沧浪之水.md",
     "知识库/随记",
     "未命名.canvas",
     "Pasted image 20250402182621.png",
