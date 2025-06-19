@@ -3,5 +3,8 @@
 2、单例Bean（非懒加载）生命周期：容器启动 -> Bean创建（实例化） -> 依赖注入（注入属性或者引用的service依赖） -> 初始化（执行初始化方法，非必须） -> 准备就绪 -> 容器关闭则销毁。
 
 3、非懒加载单例bean，在创建、依赖注入并执行初始化后，会将Bean存储到统一的缓存中，Map结构，key为bean的名称，这样在使用时，可以直接查询缓存获取Bean实例。
+- 存储在 `DefaultSingletonBeanRegistry` 类的 `singletonObjects` 属性中（ConcurrentHashMap 类型）
+- 结构：`Map<String, Object>`，Key 为 Bean 名称，Value 为实例对象
+- 如果是声明的原型Bean，不进行缓存，每次 `getBean()` 时动态创建新实例
 
 4、
