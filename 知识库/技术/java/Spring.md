@@ -34,4 +34,6 @@
 
 4、IOC如何工作的
 
-5、SpringBoot和Spring的区别
+5、SpringBoot和Spring的区别：
+- Spring Boot 与 Spring 的区别远不止于用注解替代 XML 配置，其本质是‌对 Spring 的深度封装和扩展‌，旨在简化开发流程、提升效率。（举个最明显的例子，Spring mvc中需要做的DispatcherServlet，在boot中会根据约定大于配置的原则进行默认配置）
+- 
