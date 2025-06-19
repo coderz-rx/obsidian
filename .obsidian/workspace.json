@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识库/技术/java/设计模式.md",
+                "file": "知识库/技术/java/Spring.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "设计模式"
+              "title": "Spring"
             }
           }
         ]
