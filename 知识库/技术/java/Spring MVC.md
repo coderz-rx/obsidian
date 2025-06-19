@@ -3,3 +3,10 @@
 2、调用HandlerMapping处理器映射器。HandlerMapping找到具体的Handler处理器(可以根据xml配置、注解进行查找)。将生成的Handler（处理器对象）及HandlerInterceptor（处理器拦截器）一并返回给DispatcherServlet。
 （此处返回的是一个HandlerExecutionChain类型的处理器执行链）
 
+3、然后根据执行链执行过滤器和handler（业务代码）中的逻辑，返回执行结果。
+
+4、将结果封装成ModelAndView对象返回给DispatcherServlet。
+
+5、DispatcherServlet将ModelAndView传给ViewReslover视图解析器，并根据View进行渲染视图。
+
+6、将处理过后的ModelAndView视图交给DispatcherServlet，并由DispatcherServlet响应给客户端（展示画面）。
