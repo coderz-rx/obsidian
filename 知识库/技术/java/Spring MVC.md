@@ -1,1 +1,5 @@
-前端请求达到服务器，被DispatcherServlet统一拦截。DispatcherServlet会调用
+1、前端请求达到服务器，被DispatcherServlet统一拦截。DispatcherServlet会调用doService，这里会执行doDispatch方法。
+
+2、调用HandlerMapping处理器映射器。HandlerMapping找到具体的Handler处理器(可以根据xml配置、注解进行查找)。将生成的Handler（处理器对象）及HandlerInterceptor（处理器拦截器）一并返回给DispatcherServlet。
+（此处返回的是一个HandlerExecutionChain类型的处理器执行链）
+
