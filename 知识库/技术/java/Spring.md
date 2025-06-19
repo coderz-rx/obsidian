@@ -42,4 +42,7 @@
 5、SpringBoot和Spring的区别：
 - Spring Boot 与 Spring 的区别远不止于用注解替代 XML 配置，其本质是‌对 Spring 的深度封装和扩展‌，旨在简化开发流程、提升效率。（举个最明显的例子，Spring mvc中需要做的DispatcherServlet，在boot中会根据约定大于配置的原则进行默认配置）
 - Spring可以根据项目依赖（如 `spring-boot-starter-data-jpa`）‌**自动装配 Bean 和组件**‌，无需手动定义数据源、事务管理器等。例如引入 H2 依赖后自动配置内存数据库。（==但也可以自定义配置对默认配置进行覆盖==）
-- 
+- Spring Boot 不是替代 Spring‌，而是基于 Spring 的‌开发加速器‌：
+	- 保留 Spring 核心（IoC、AOP、事务）。
+	- 通过默认约定和自动装配‌降低使用门槛。
+	- 专注于业务逻辑而非基础设施配置 。
