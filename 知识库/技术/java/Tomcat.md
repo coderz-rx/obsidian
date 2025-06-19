@@ -15,6 +15,7 @@
 3、Tomcat整体处理流程
 - 连接器（Connector：ExdPoint+Processor+Adapter）+容器（container）
 - https://cloud.tencent.com/developer/article/2441847?policyId=1
+- https://www.cnblogs.com/Eduhg/p/18356328
 
 4、为什么要用Tomcat部署服务？
 - 不用自己处理通信、协议解析等内容，而只关注业务功能代码
