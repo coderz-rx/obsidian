@@ -37,7 +37,7 @@
 	- 加载配置元数据：容器读取XML、注解或Java配置类（如`@Configuration`），解析Bean的定义信息（如类路径、作用域、初始化方法等），生成`BeanDefinition`对象存储配置元数据
 	- 创建BeanFactory：容器根据配置创建`BeanFactory`（基础容器）或`ApplicationContext`（高级容器，继承`BeanFactory`），后者支持国际化、事件发布等扩展功能
 - Bean生命周期管理（参照上面内容）
-- 容器工作流程（以 ApplicationContext 为例）：启动容器 -> 加载配置元数据 -> 
+- 容器工作流程（以 ApplicationContext 为例）：启动容器 -> 加载配置元数据 -> 解析生成BeanDefinition  创建BeanFactory 调用BeanFactoryPostProcessor扩展 实例化Bean 依赖注入 执行BeanPostProcessor前置处理 初始化Bean  执行BeanPostProcessor后置处理 Bean就绪
 
 5、SpringBoot和Spring的区别：
 - Spring Boot 与 Spring 的区别远不止于用注解替代 XML 配置，其本质是‌对 Spring 的深度封装和扩展‌，旨在简化开发流程、提升效率。（举个最明显的例子，Spring mvc中需要做的DispatcherServlet，在boot中会根据约定大于配置的原则进行默认配置）
