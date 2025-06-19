@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识库/技术/java/Tomcat.md",
+                "file": "知识库/技术/java/设计模式.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Tomcat"
+              "title": "设计模式"
             }
           }
         ]
@@ -181,11 +181,11 @@
   },
   "active": "bfe46fda1355fe3f",
   "lastOpenFiles": [
+    "知识库/技术/java/集合操作.md",
     "知识库/技术/java/设计模式.md",
-    "知识库/技术/java/Tomcat.md",
     "知识库/技术/java/Spring.md",
     "知识库/技术/java/Spring MVC.md",
-    "知识库/技术/java/集合操作.md",
+    "知识库/技术/java/Tomcat.md",
     "Pasted image 20250619114642.png",
     "Pasted image 20250619105726.png",
     "知识库/投资/交易复盘.md",
