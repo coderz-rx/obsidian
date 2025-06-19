@@ -12,4 +12,8 @@
 - webapps：存放 Tomcat 默认的 Web 应用项目资源的目录
 - work：Tomcat 的工作目录，存放 Web 应用代码生成和编译文件
 
-3、
+3、Tomcat整体处理流程
+- 连接器（Connector：ExdPoint+Processor+Adapter）+容器（container）
+- https://cloud.tencent.com/developer/article/2441847?policyId=1
+
+
