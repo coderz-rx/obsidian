@@ -11,3 +11,5 @@
 - temp：存放 Tomcat 运行时产生的文件
 - webapps：存放 Tomcat 默认的 Web 应用项目资源的目录
 - work：Tomcat 的工作目录，存放 Web 应用代码生成和编译文件
+
+3、
