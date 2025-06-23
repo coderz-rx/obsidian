@@ -21,4 +21,18 @@
 		- sun.misc.Unsafe是JDK提供的底层工具类，通过JNI直接调用操作系统功能，提供硬件级原子操作和内存管理能力（如内存分配、CAS、线程挂起/恢复等）。
 		- 主要用于Java核心类库（如JUC并发包）的实现，普通代码不推荐使用。
 	 2. 安全性风险
-		 1. 
+		- 绕过Java语言安全检查，直接操作内存和线程，可能导致内存泄漏、指针越界等问题 （有点像C、C++中的指针操作）
+
+##### 2.3 unsafe的核心功能
+	1. 内存操作
+		- 分配/释放内存：`allocateMemory`、`reallocateMemory`、`freeMemory`（类似C的`malloc`/`free`）
+	2. cas操作
+		-
+	3. 线程调度
+	4. 类与对象操作
+	5. 内存屏障
+
+##### 2.4 获取unsafe实例
+	1.限制条件：默认仅允许BootstrapClassLoader加载的类调用`Unsafe.getUnsafe()`，否则抛出`SecurityException`
+	
+	
