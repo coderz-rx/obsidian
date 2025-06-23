@@ -26,11 +26,16 @@
 ##### 2.3 unsafe的核心功能
 	1. 内存操作
 		- 分配/释放内存：`allocateMemory`、`reallocateMemory`、`freeMemory`（类似C的`malloc`/`free`）
+		- 内存读写：`putXXX`/`getXXX`系列方法直接修改对象字段值（需配合字段偏移量`objectFieldOffset`）
 	2. cas操作
-		-
+		-提供`compareAndSwapObject`、`compareAndSwapInt`等原子方法，是JUC并发工具（如`AtomicInteger`）的底层实现
 	3. 线程调度
+		-`park`/`unpark`：直接挂起或唤醒线程（`LockSupport`的底层依赖）
 	4. 类与对象操作
+		-绕过构造器创建实例：`allocateInstance`
+		-动态定义类：`defineAnonymousClass`（已废弃）
 	5. 内存屏障
+		-强制读写主存：`loadFence`、`storeFence`（避免指令重排序）
 
 ##### 2.4 获取unsafe实例
 	1.限制条件：默认仅允许BootstrapClassLoader加载的类调用`Unsafe.getUnsafe()`，否则抛出`SecurityException`
