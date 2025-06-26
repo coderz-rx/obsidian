@@ -166,7 +166,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 460.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -179,7 +179,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "bfe46fda1355fe3f",
+  "active": "2abb1ad21973ab5f",
   "lastOpenFiles": [
     "知识库/技术/java/集合操作.md",
     "知识库/技术/java/一些java名词.md",
