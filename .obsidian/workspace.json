@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识库/投资/买入机会、卖出风险.md",
+                "file": "知识库/投资/价值投资.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "买入机会、卖出风险"
+              "title": "价值投资"
             }
           }
         ]
@@ -181,8 +181,9 @@
   },
   "active": "bfe46fda1355fe3f",
   "lastOpenFiles": [
-    "知识库/投资/短线交易规则.md",
     "知识库/投资/买入机会、卖出风险.md",
+    "知识库/投资/价值投资.md",
+    "知识库/投资/短线交易规则.md",
     "知识库/投资/交易复盘.md",
     "Pasted image 20250620120526.png",
     "Pasted image 20250620120118.png",
@@ -215,7 +216,6 @@
     "知识库/技术/AI/AI IDEA.md",
     "知识库/技术/AI/0 AI内容汇总.md",
     "知识库/技术/AI/一些思考/和春春的一次谈话.md",
-    "知识库/技术/AI/一些模型框架.md",
     "知识库/技术/AI/prompt集合",
     "知识库/技术/AI/一些思考",
     "知识库/方法论",
