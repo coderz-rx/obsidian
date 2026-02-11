@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "短线交易规则"
             }
+          },
+          {
+            "id": "3b6dbd62664b7628",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.9.12"
+              },
+              "icon": "lucide-book-up",
+              "title": "版本说明 1.9.12"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -170,6 +183,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:创建新数据库": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
@@ -179,7 +193,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "bfe46fda1355fe3f",
+  "active": "3b6dbd62664b7628",
   "lastOpenFiles": [
     "知识库/投资/交易复盘.md",
     "知识库/投资/技术指标.md",
