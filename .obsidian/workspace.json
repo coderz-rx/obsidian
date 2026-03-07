@@ -4,20 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "c0d692c617a68974",
+        "id": "1e0b622563254641",
         "type": "tabs",
         "children": [
           {
-            "id": "e3b56303dca8fb21",
+            "id": "8860c3048f196b42",
             "type": "leaf",
             "state": {
-              "type": "bases",
+              "type": "markdown",
               "state": {
-                "file": "未命名 1.base",
-                "viewName": "表格"
+                "file": "2026-03-07.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-table",
-              "title": "未命名 1"
+              "icon": "lucide-file",
+              "title": "2026-03-07"
             }
           }
         ]
@@ -73,8 +74,7 @@
               "title": "书签"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -180,12 +180,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e3b56303dca8fb21",
+  "active": "8860c3048f196b42",
   "lastOpenFiles": [
-    "2026-03-07.md",
+    "Pasted image 20250619105726.png",
+    "Pasted image 20250619114642.png",
+    "未命名 2.base",
     "未命名 1.base",
-    "未命名.canvas",
     "未命名.base",
+    "2026-03-07.md",
+    "未命名.canvas",
     "知识库/读书笔记/小说/长安的荔枝.md",
     "知识库/读书笔记/小说/沧浪之水.md",
     "知识库/读书笔记/工具书/神奇的结构.md",
@@ -202,8 +205,6 @@
     "Pasted image 20250620120526.png",
     "Pasted image 20250620120118.png",
     "Pasted image 20250620110816.png",
-    "Pasted image 20250619105726.png",
-    "Pasted image 20250619114642.png",
     "知识库/技术/java/关于线程安全.md",
     "知识库/技术/java/集合操作.md",
     "知识库/技术/java/一些java名词.md",
@@ -222,7 +223,6 @@
     "知识库/技术/AI/prompt集合",
     "知识库/技术/AI/一些思考",
     "知识库/方法论",
-    "知识库/随记",
     "Pasted image 20250402182621.png"
   ]
 }
