@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "2b5951b4ec0d4814",
+        "id": "4b947302b344c2f1",
         "type": "tabs",
         "children": [
           {
-            "id": "4d633f28a42ac285",
+            "id": "43ebed4df2b4e99d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识库/openclaw/每日复盘/2026-03-07.md",
+                "file": "知识库/openclaw/每日复盘/2026-03-08.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-03-07"
+              "title": "2026-03-08"
             }
           }
         ]
@@ -180,10 +180,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4d633f28a42ac285",
+  "active": "43ebed4df2b4e99d",
   "lastOpenFiles": [
-    "知识库/01-每日复盘/2026-03-08.md",
     "知识库/openclaw/每日复盘/2026-03-07.md",
+    "知识库/openclaw/每日复盘/2026-03-08.md",
+    "知识库/01-每日复盘/2026-03-08.md",
     "知识库/投资/短线交易规则.md",
     "知识库/openclaw/每日复盘",
     "2026-03-07.md",
@@ -217,7 +218,6 @@
     "知识库/技术/mybatis/mybatis绑定数据库.md",
     "知识库/技术/0 技术汇总.md",
     "知识库/技术/java/设计模式.md",
-    "知识库/技术/网络/从输入URL地址到页面加载的全过程.md",
     "知识库/技术/数据库",
     "知识库/技术/Redis",
     "知识库/技术/网络",
