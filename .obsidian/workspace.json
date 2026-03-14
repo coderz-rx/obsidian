@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识库/openclaw/每日复盘/2026-03-09.md",
+                "file": "知识库/技术/openclaw相关/openclaw如何配置多agent.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-03-09"
+              "title": "openclaw如何配置多agent"
             }
           }
         ]
@@ -180,11 +180,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6820001f557cad85",
+  "active": "43ebed4df2b4e99d",
   "lastOpenFiles": [
+    "知识库/技术/openclaw相关/images/step4-feishu-options.jpg",
+    "知识库/技术/openclaw相关/images/step4-app-secret.jpg",
+    "知识库/技术/openclaw相关/images/step3-model-auth.jpg",
+    "知识库/技术/openclaw相关/images/step2-copy-auth.jpg",
+    "知识库/技术/openclaw相关/images",
+    "知识库/openclaw/每日复盘/2026-03-09.md",
+    "知识库/技术/openclaw相关/openclaw如何配置多agent.md",
     "知识库/技术/openclaw相关",
     "知识库/openclaw/每日复盘/2026-03-10.md",
-    "知识库/openclaw/每日复盘/2026-03-09.md",
     "知识库/openclaw/每日复盘/2026-03-13.md",
     "知识库/openclaw/待办清单.md",
     "知识库/openclaw/每日复盘/2026-03-12.md",
@@ -219,11 +225,8 @@
     "Pasted image 20250620120526.png",
     "Pasted image 20250620120118.png",
     "Pasted image 20250620110816.png",
-    "知识库/技术/java/关于线程安全.md",
     "知识库/技术/数据库",
     "知识库/技术/Redis",
-    "知识库/技术/网络",
-    "知识库/技术/java",
     "Pasted image 20250402182621.png"
   ]
 }
