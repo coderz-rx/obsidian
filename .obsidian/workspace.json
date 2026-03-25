@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "5f64d10292a66638",
+        "id": "31bc327c22af0f29",
         "type": "tabs",
         "children": [
           {
-            "id": "821931fa156fd533",
+            "id": "afa36f15df320132",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -20,21 +20,8 @@
               "icon": "lucide-file",
               "title": "2026-03-24"
             }
-          },
-          {
-            "id": "a02865f011410dc6",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.12.7"
-              },
-              "icon": "lucide-book-up",
-              "title": "版本说明 1.12.7"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -193,8 +180,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a02865f011410dc6",
+  "active": "afa36f15df320132",
   "lastOpenFiles": [
+    "知识库/openclaw/每日复盘/2026/03/2026-03-24.md",
     "知识库/openclaw/每日复盘/2026/03/2026-03-23.md",
     "知识库/openclaw/每日复盘/2026/03/2026-03-16~2026-03-22 周复盘.md",
     "知识库/openclaw/每日复盘/2026/03/2026-03-22.md",
@@ -222,7 +210,6 @@
     "知识库/随记/个人随想.md",
     "知识库/随记/随记集合.md",
     "知识库/openclaw/每日复盘/2026-03-20.md",
-    "知识库/其他/写作技巧/技术文章写作框架拆解.md",
     "知识库/其他/写作技巧",
     "知识库/其他/未命名",
     "知识库/随记/那些值得记录的电影",
