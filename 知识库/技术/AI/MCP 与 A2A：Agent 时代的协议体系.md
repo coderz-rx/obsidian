@@ -399,15 +399,91 @@ npx mcp-proxy python weather_server.py --port 3001
 
 ---
 
-## 五、MCP Server 的安全与认证
+## 五、MCP 的注册与发现：没有统一目录
 
-### 5.1 stdio 模式的安全边界
+### 5.1 MCP 是去中心化的
+
+**MCP 协议本身没有强制性的统一注册中心。** 这与很多传统 SaaS 平台的 "应用商店" 模式有本质区别。
+
+一个团队或个人开发了一个 MCP Server 后，可以直接通过 SSE/HTTP 暴露在自己的域名/IP 上。任何知道这个地址的 Client 都可以直接连接，**不需要向任何第三方注册**。
+
+例如你自己的 Server 跑在：
+```
+https://your-api.com/mcp/sse
+```
+Claude Desktop、Cursor、OpenClaw 都可以直接配置这个 URL 来连接，中间没有任何网关或审批。
+
+### 5.2 获取 MCP Server 的三种途径
+
+| 途径 | 说明 | 例子 |
+|------|------|------|
+| **独立部署** | 绝大多数情况。团队或个人自建自管 | 公司内部的 HR 系统 MCP Server |
+| **聚合市场** | 可选的 "黄页"，方便发现，但非强制 | Smithery、MCP.so、Cursor Marketplace、Glama |
+| **封闭生态** | 特定平台自己的分发渠道 | OpenClaw 的 `clawhub`、Claude Code Plugins |
+
+这些市场的作用类似于**应用商店**——开发者可以自愿提交，用户可以上去搜索，但完全不涉及协议层面的 "统一注册" 或 "路由转发"。
+
+### 5.3 Client 如何获取 MCP 能力？目前是手动的
+
+**Client 不会自动扫描互联网来找工具。** 你必须先把 Server 的信息手动配置到 Client 中。
+
+以 Claude Desktop 为例，需要编辑 `claude_desktop_config.json`：
+
+```json
+{
+  "mcpServers": {
+    "github": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-github"]
+    },
+    "my-custom-server": {
+      "url": "https://your-api.com/mcp/sse"
+    }
+  }
+}
+```
+
+配置完成后，Client 下次启动时才会：
+1. 按照配置连接这些 Server
+2. 调用 `tools/list` 获取工具列表
+3. 把工具信息注入到大模型的系统提示中
+
+**如果某个 Server 没有在配置里注册，Client 完全不知道它的存在。**
+
+### 5.4 大模型能感知到 MCP 服务吗？
+
+**完全不能主动感知。**
+
+大模型对 MCP 工具的认知范围，严格受限于 **Client 在系统提示中注入的内容**。它看到的只是类似这样的一段描述：
+
+```
+You have access to the following tools:
+- get_weather(city: string): 获取指定城市的天气
+- search_github(query: string): 搜索 GitHub 仓库
+```
+
+如果某个 Server 没被连接，这段描述里就没有对应的工具，**大模型绝不会凭空知道它可以调用某个外部服务**，也不会主动上网搜索新的 MCP Server。
+
+### 5.5 未来的可能方向
+
+业界正在探索的改进方向包括：
+- **一键安装**：聚合市场和 Host 深度集成，在 Client 内直接搜索安装
+- **动态注册表**：Server 暴露元注册表，Client 可以查询可用 Server 列表
+- **Agent 驱动发现**：由 Agent 自主决定是否连接新的 Server
+
+但这些目前都还处于概念或早期实验阶段，**当前最现实的工作流仍然是 "手动发现 + 手动配置"**。
+
+---
+
+## 六、MCP Server 的安全与认证
+
+### 6.1 stdio 模式的安全边界
 
 由于 Server 作为子进程运行，它的权限完全取决于启动它的用户。建议：
 - 对敏感操作（如写文件、执行系统命令）做白名单校验
 - 在 Server 代码中显式限制可访问的目录和命令
 
-### 5.2 远程 SSE/HTTP 模式的认证
+### 6.2 远程 SSE/HTTP 模式的认证
 
 目前 MCP 协议本身**没有内建认证机制**，但你可以在 HTTP 层实现：
 
@@ -433,15 +509,15 @@ app.add_middleware(APIKeyMiddleware)
 
 ---
 
-## 六、A2A：Agent-to-Agent Protocol
+## 七、A2A：Agent-to-Agent Protocol
 
-### 6.1 什么是 A2A
+### 7.1 什么是 A2A
 
 A2A 是由 Google 主导的开放协议（2025 年提出），解决的是**多 Agent 协作**的问题。
 
 如果说 MCP 是 "Agent 调用工具的标准接口"，那么 A2A 就是 "Agent 之间通信的标准接口"。
 
-### 6.2 A2A 与 MCP 的本质区别
+### 7.2 A2A 与 MCP 的本质区别
 
 | 维度 | MCP | A2A |
 |------|-----|-----|
@@ -451,14 +527,14 @@ A2A 是由 Google 主导的开放协议（2025 年提出），解决的是**多 
 | **典型场景** | 查天气、读数据库、发邮件 | 调度 Agent 分解任务，审查 Agent 检查结果 |
 | **协议层** | JSON-RPC 2.0 | HTTP + JSON（基于 Agent Card） |
 
-### 6.3 A2A 解决的核心问题
+### 7.3 A2A 解决的核心问题
 
 1. **Agent 发现**：一个 Agent 如何找到另一个 Agent 的能力（Agent Card）
 2. **任务委托**：如何将复杂任务拆解并分发给不同垂域 Agent
 3. **状态同步**：多轮协作中，Agent 之间如何交换中间状态和最终产物
 4. **安全边界**：不同厂商、不同权限的 Agent 如何在可信范围内协作
 
-### 6.4 为什么分 Agent？
+### 7.4 为什么分 Agent？
 
 > "一个脑子装太多内容容易混乱，各司其职可能效果会更好。"
 
@@ -468,7 +544,7 @@ A2A 是由 Google 主导的开放协议（2025 年提出），解决的是**多 
 - **推理专注度**：单一 Agent 的 Prompt 和工具集更聚焦，决策质量更高
 - **模块化扩展**：新增垂域能力只需要增加一个 Agent，调度 Agent 的架构保持不变
 
-### 6.5 垂域 Agent 如何具备业务能力？
+### 7.5 垂域 Agent 如何具备业务能力？
 
 你提到一个关键问题：如果不做微调，垂域 Agent 怎么具备领域知识？
 
@@ -492,7 +568,7 @@ A2A 是由 Google 主导的开放协议（2025 年提出），解决的是**多 
 
 ---
 
-## 七、MCP + A2A 的协同架构
+## 八、MCP + A2A 的协同架构
 
 在一个复杂的企业级 Agent 系统中，MCP 和 A2A 通常是**共存互补**的：
 
@@ -520,7 +596,7 @@ A2A 是由 Google 主导的开放协议（2025 年提出），解决的是**多 
 
 ---
 
-## 八、总结
+## 九、总结
 
 ### MCP 的核心价值
 
