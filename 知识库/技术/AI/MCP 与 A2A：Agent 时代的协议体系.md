@@ -1,5 +1,3 @@
-# MCP 与 A2A：Agent 时代的工具协议与协作协议
-
 > 本文合并自《A2A 与 Agent+MCP》和《AI MCP》，并补充了 MCP 实现原理、自定义 Server 开发及对外暴露的完整实践。
 
 ---
