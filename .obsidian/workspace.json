@@ -11,14 +11,10 @@
             "id": "afa36f15df320132",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "知识库/技术/AI/AI MCP.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "AI MCP"
+              "title": "新标签页"
             }
           }
         ]
@@ -182,10 +178,10 @@
   },
   "active": "afa36f15df320132",
   "lastOpenFiles": [
+    "知识库/技术/AI/AI MCP.md",
     "知识库/技术/AI/MCP 与 A2A：Agent 时代的协议体系.md",
     "知识库/技术/AI/A2A 与 Agent+MCP.md",
     "知识库/技术/AI/AI IDEA.md",
-    "知识库/技术/AI/AI MCP.md",
     "知识库/技术/AI/AI RAG.md",
     "知识库/技术/AI/AI影响 by 企业家、投资人 Greg Isenberg.md",
     "知识库/技术/AI/ClaudeCode Skill 自定义与 OpenClaw 对应实践.md",
