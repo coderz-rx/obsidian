@@ -180,11 +180,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6820001f557cad85",
+  "active": "afa36f15df320132",
   "lastOpenFiles": [
-    "知识库/技术/AI/ClaudeCode Skill 自定义与 OpenClaw 对应实践.md",
+    "知识库/技术/AI/A2A 与 Agent+MCP.md",
     "知识库/技术/AI/AI IDEA.md",
     "知识库/技术/AI/AI MCP.md",
+    "知识库/技术/AI/AI RAG.md",
+    "知识库/技术/AI/AI影响 by 企业家、投资人 Greg Isenberg.md",
+    "知识库/技术/AI/ClaudeCode Skill 自定义与 OpenClaw 对应实践.md",
     "知识库/技术/AI/Claude Code/ClaudeCode Hooks.md",
     "知识库/技术/AI/Claude Code/ClaudeCode 自定义 Hook.md",
     "知识库/技术/AI/Claude Code/ClaudeCode.md",
@@ -198,8 +201,6 @@
     "Pasted image 20250620110816.png",
     "知识库/技术/AI/prompt集合/一些prompt的trick.md",
     "知识库/技术/AI/一些模型框架.md",
-    "知识库/技术/AI/AI RAG.md",
-    "知识库/技术/AI/AI影响 by 企业家、投资人 Greg Isenberg.md",
     "知识库/技术/AI/无监督？强化学习.md",
     "知识库/技术/AI/0 AI内容汇总.md",
     "知识库/技术/AI/一些思考/和春春的一次谈话.md",
@@ -209,7 +210,6 @@
     "知识库/openclaw/每日复盘/2026/04/2026-04-10.md",
     "知识库/openclaw/每日复盘/2026/04/2026-04-09.md",
     "知识库/openclaw/每日复盘/2026/04/2026-04-08.md",
-    "知识库/openclaw/每日复盘/2026/04/2026-04-07.md",
     "知识库/openclaw/每日复盘/2026/03",
     "知识库/openclaw/每日复盘/2026",
     "知识库/其他/写作技巧",
