@@ -11,14 +11,10 @@
             "id": "afa36f15df320132",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "知识库/openclaw/每日复盘/2026/04/2026-04-25.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "2026-04-25"
+              "title": "新标签页"
             }
           }
         ]
@@ -182,10 +178,11 @@
   },
   "active": "afa36f15df320132",
   "lastOpenFiles": [
+    "知识库/openclaw/每日复盘/2026/04/2026-04-20~2026-04-26 周复盘.md",
+    "知识库/openclaw/每日复盘/2026/04/2026-04-21~2026-04-27 周复盘.md",
+    "知识库/openclaw/每日复盘/2026/04/2026-04-25.md",
     "知识库/openclaw/每日复盘/2026/04/2026-04-26.md",
     "知识库/openclaw/每日复盘/2026/04/2026-04-20.md",
-    "知识库/openclaw/每日复盘/2026/04/2026-04-20~2026-04-26 周复盘.md",
-    "知识库/openclaw/每日复盘/2026/04/2026-04-25.md",
     "知识库/openclaw/每日复盘/2026/04/2026-04-24.md",
     "知识库/技术/AI/缺陷申诉AI自动化判定实践文章_v2.md",
     "知识库/openclaw/缺陷申诉AI自动化判定实践文章.md",
@@ -207,7 +204,6 @@
     "知识库/openclaw/每日复盘/2026/04/2026-04-14.md",
     "知识库/技术/AI/MCP 与 A2A：Agent 时代的协议体系.md",
     "知识库/技术/AI/Claude Code/ClaudeCode Hooks.md",
-    "知识库/技术/AI/Claude Code/ClaudeCode 自定义 Hook.md",
     "知识库/技术/AI/Claude Code",
     "Pasted image 20250620110816.png",
     "知识库/openclaw/每日复盘/2026/03",
