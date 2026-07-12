@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识库/openclaw/每日复盘/2026/07/2026-07-06~2026-07-12 周复盘.md",
+                "file": "知识库/技术/agent/RAG 从入门到进阶：提示词优化、知识库构建与高级检索技巧实战解析.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-07-06~2026-07-12 周复盘"
+              "title": "RAG 从入门到进阶：提示词优化、知识库构建与高级检索技巧实战解析"
             }
           }
         ]
@@ -180,11 +180,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6820001f557cad85",
+  "active": "9af1d8428fb1abd8",
   "lastOpenFiles": [
+    "知识库/openclaw/每日复盘/2026/07/2026-07-06~2026-07-12 周复盘.md",
+    "知识库/技术/agent/RAG 从入门到进阶：提示词优化、知识库构建与高级检索技巧实战解析.md",
+    "知识库/技术/agent",
     "知识库/技术/AI/RAG 从入门到进阶：提示词优化、知识库构建与高级检索技巧实战解析.md",
     "知识库/openclaw/每日复盘/2026/07/2026-07-07.md",
-    "知识库/openclaw/每日复盘/2026/07/2026-07-06~2026-07-12 周复盘.md",
     "知识库/openclaw/每日复盘/2026/07/2026-07-12.md",
     "知识库/openclaw/每日复盘/2026/07/2026-07-11.md",
     "知识库/openclaw/每日复盘/2026/07/2026-07-10.md",
@@ -207,7 +209,6 @@
     "知识库/openclaw/每日复盘/2026/07/2026-07-02.md",
     "知识库/openclaw/每日复盘/2026/06/2026-06月 月度复盘.md",
     "知识库/openclaw/每日复盘/2026/06/2026-06-30.md",
-    "知识库/openclaw/每日复盘/2026/05/2026-05月 月度复盘.md",
     "知识库/openclaw/每日复盘/2026/07",
     "未命名 1.canvas",
     "未命名 1.base",
@@ -224,7 +225,6 @@
     "知识库/技术/openclaw相关/images/step4-app-secret.jpg",
     "知识库/技术/openclaw相关/images/step3-model-auth.jpg",
     "知识库/技术/openclaw相关/images/step2-copy-auth.jpg",
-    "知识库/技术/openclaw相关/images",
     "Pasted image 20250619105726.png",
     "Pasted image 20250619114642.png",
     "Pasted image 20250620120526.png",
