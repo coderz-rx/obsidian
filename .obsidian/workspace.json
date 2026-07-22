@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识库/技术/agent/多模态大模型框架.md",
+                "file": "知识库/技术/agent/大语言模型训练范式：从GPT到Llama的RLHF演进.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "多模态大模型框架"
+              "title": "大语言模型训练范式：从GPT到Llama的RLHF演进"
             }
           }
         ]
@@ -182,8 +182,8 @@
   },
   "active": "01bc70a15aaa85c3",
   "lastOpenFiles": [
-    "知识库/技术/agent/Agent智能体核心架构解析.md",
     "知识库/技术/agent/多模态大模型框架.md",
+    "知识库/技术/agent/Agent智能体核心架构解析.md",
     "知识库/技术/agent/RAG 从入门到进阶：提示词优化、知识库构建与高级检索技巧实战解析.md",
     "知识库/技术/agent/大语言模型训练范式：从GPT到Llama的RLHF演进.md",
     "知识库/openclaw/每日复盘/2026/07/2026-07-21.md",
