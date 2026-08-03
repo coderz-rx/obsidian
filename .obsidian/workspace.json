@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识库/投资/交易复盘.md",
+                "file": "知识库/投资/交易复盘/交易复盘（规则篇）.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "交易复盘"
+              "title": "交易复盘（规则篇）"
             }
           }
         ],
@@ -197,8 +197,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "63e077f9bae9a855",
+  "active": "6820001f557cad85",
   "lastOpenFiles": [
+    "知识库/投资/交易复盘目录.md",
+    "知识库/投资/交易复盘/交易复盘（规则篇）.md",
+    "知识库/投资/交易复盘",
     "知识库/投资/投资汇总.md",
     "知识库/openclaw/每日复盘/2026/08/2026-07-27~2026-08-02 周复盘.md",
     "知识库/openclaw/每日复盘/2026/08/2026-08-02.md",
@@ -222,9 +225,6 @@
     "知识库/openclaw/每日复盘/2026/07/2026-07-23.md",
     "知识库/技术/AI/0 AI内容汇总.md",
     "知识库/openclaw/每日复盘/2026/07/2026-07-22.md",
-    "知识库/技术/agent/大语言模型训练范式：从GPT到Llama的RLHF演进.md",
-    "知识库/技术/agent/多模态大模型框架.md",
-    "知识库/技术/agent/Agent智能体核心架构解析.md",
     "知识库/技术/agent",
     "知识库/openclaw/每日复盘/2026/07",
     "未命名 1.canvas",
@@ -237,7 +237,6 @@
     "知识库/openclaw/每日复盘/2026",
     "知识库/其他/写作技巧",
     "知识库/其他/未命名",
-    "知识库/随记/那些值得记录的电影",
     "知识库/技术/openclaw相关/images/step4-feishu-options.jpg",
     "知识库/技术/openclaw相关/images/step4-app-secret.jpg",
     "知识库/技术/openclaw相关/images/step3-model-auth.jpg",
