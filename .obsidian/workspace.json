@@ -95,7 +95,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 351.5
+    "width": 208.6999969482422
   },
   "right": {
     "id": "0470e57e50b0d210",
@@ -197,7 +197,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6820001f557cad85",
+  "active": "2abb1ad21973ab5f",
   "lastOpenFiles": [
     "知识库/openclaw/每日复盘/2026/08/2026-08-03.md",
     "知识库/openclaw/每日复盘/2026/08/2026-08-09.md",
