@@ -39,12 +39,14 @@
             "id": "38801880195e5c45",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.13.6"
+                "file": "知识库/openclaw/每日复盘/2026/08/2026-08-11.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "版本说明 1.13.6"
+              "icon": "lucide-file",
+              "title": "2026-08-11"
             }
           }
         ],
