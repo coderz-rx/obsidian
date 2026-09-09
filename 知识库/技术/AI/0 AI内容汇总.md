@@ -35,6 +35,7 @@
 			2.线性+非线性=世界规律
 		3.transformer简介(基于PyTorch实现)
 		4.名校lab（AI课程）:CS229 Machine Learning、CS224n Natural Language Processing
+		5.PyTorch与TensorFlow对比 [[PyTorch 与 TensorFlow 的对比]]
 	3.大模型微调:监督微调(SFT)、强化学习微调(如GRPO)
 		1.微调实战--用Open-R1微调Qwen模型,强化AI数学推理助
 		2.Wandb平台的使用
