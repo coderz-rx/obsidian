@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识库/openclaw/每日复盘/2026/10/2026-10-08.md",
+                "file": "知识库/技术/AI/经验总结/AI应用高并发治理方案.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-10-08"
+              "title": "AI应用高并发治理方案"
             }
           }
         ]
@@ -186,6 +186,8 @@
   "active": "a1b15e120646584e",
   "lastOpenFiles": [
     "知识库/openclaw/每日复盘/2026/10/2026-10-08.md",
+    "知识库/技术/AI/经验总结/AI应用高并发治理方案.md",
+    "知识库/技术/AI/经验总结",
     "知识库/openclaw/每日复盘/2026/10/2026-09-28~2026-10-04 周复盘.md",
     "知识库/技术/java/Tomcat.md",
     "知识库/技术/java/Servlet、Tomcat、HTTP、RPC、Dubbo总结.md",
@@ -211,7 +213,6 @@
     "知识库/openclaw/每日复盘/2026/09/2026-09-27.md",
     "知识库/openclaw/每日复盘/2026/09/2026-09-26.md",
     "知识库/openclaw/每日复盘/2026/09/2026-09-25.md",
-    "知识库/openclaw/每日复盘/2026/09/2026-09-24.md",
     "知识库/投资/个人交易记录",
     "知识库/投资/大盘基本情况记录",
     "知识库/openclaw/每日复盘/2026/09",
@@ -227,7 +228,6 @@
     "知识库/技术/agent/07 模型部署及高并发",
     "知识库/技术/agent/06 Agent",
     "知识库/技术/agent/05 AI Coding",
-    "知识库/技术/agent/04 RAG",
     "未命名 1.canvas",
     "未命名.canvas",
     "Pasted image 20250620110816.png",
