@@ -1,4 +1,3 @@
-# Servlet / Tomcat / HTTP / RPC / Dubbo 总结
 
 > 本文把通用知识点与本项目（magic_mirror）实际的 Dubbo 配置结合，便于对照理解。
 > 相关配置文件：
